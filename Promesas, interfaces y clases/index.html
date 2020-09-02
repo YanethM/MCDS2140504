@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="eventosCronometrados.js"></script>
+    <script src="promesasTS.js"></script>
+    <script src="callbackTS.js"></script>
+    <script src="interfacesTS.js"></script>
+    <script src="classSinConstructor.js"></script>
+    <script src="classConstructIndicado.js"></script>
+
+    <button onclick="ejecutarFuncion = setTimeout(mensajeMostrar, 2000)">
+        Ejecutar alert
+    </button>
+
+    <button onclick="clearTimeout(ejecutarFuncion)">
+        Detener ejecución
+    </button>
+
+    <button onclick="let activarCronometro = setInterval(setIntervalE,1000)">
+        Activar cronometro
+    </button>
+
+</body>
+</html>
